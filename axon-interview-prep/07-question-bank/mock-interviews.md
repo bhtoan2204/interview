@@ -10,6 +10,7 @@
 6. What are your salary expectations?
 7. When can you start?
 8. What questions do you have for me?
+9. Why do you think you are a good culture fit?
 
 ## Mock 2: Technical Screen
 
