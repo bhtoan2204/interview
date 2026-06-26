@@ -1,0 +1,7 @@
+# generated PKI (run `make certs`)
+certs/*.crt
+certs/*.key
+certs/*.srl
+# compiled app binaries (run `make build`)
+server-app/server-app
+client-app/client-app

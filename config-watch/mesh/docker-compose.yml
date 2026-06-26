@@ -1,0 +1,81 @@
+# Service mesh demo with a DYNAMIC (xDS) control plane backed by Consul KV.
+#
+#   client-app ─localhost:9191→ client-envoy ═mTLS═> server-envoy ─localhost:8080→ server-app
+#                                    ▲                      ▲
+#                                    └──────── ADS ─────────┘
+#                                         control-plane  ◀── watches ── consul (KV)
+#
+# Both Envoys boot with almost no config and fetch their listeners/clusters from
+# control-plane over gRPC. control-plane derives that config from Consul KV and
+# re-pushes on every change, so edits hot-reload with no restart.
+services:
+  consul:
+    image: hashicorp/consul:1.22.6
+    container_name: mesh-consul
+    command: ["agent", "-dev", "-ui", "-client=0.0.0.0", "-bind=0.0.0.0"]
+    ports:
+      - "8500:8500" # HTTP API + web UI
+    restart: unless-stopped
+
+  control-plane:
+    build: ./control-plane
+    image: mesh-control-plane
+    container_name: control-plane
+    environment:
+      CONSUL_ADDRESS: "consul:8500"
+      XDS_LISTEN: ":18000"
+      UPSTREAM_HOST: "server-envoy"
+    depends_on:
+      - consul
+    restart: unless-stopped
+
+  # ---- server side ----------------------------------------------------------
+  server-envoy:
+    image: envoyproxy/envoy:v1.31-latest
+    container_name: server-envoy
+    command: ["-c", "/etc/envoy/bootstrap.yaml", "--service-cluster", "server"]
+    volumes:
+      - ./envoy/server-bootstrap.yaml:/etc/envoy/bootstrap.yaml:ro
+      - ./certs:/etc/envoy/certs:ro
+    ports:
+      - "9901:9901" # server-envoy admin
+    depends_on:
+      - control-plane
+    restart: unless-stopped
+
+  server-app:
+    build: ./server-app
+    image: mesh-server-app
+    container_name: server-app
+    environment:
+      LISTEN_ADDR: "127.0.0.1:8080"
+    network_mode: "service:server-envoy"
+    depends_on:
+      - server-envoy
+    restart: unless-stopped
+
+  # ---- client side ----------------------------------------------------------
+  client-envoy:
+    image: envoyproxy/envoy:v1.31-latest
+    container_name: client-envoy
+    command: ["-c", "/etc/envoy/bootstrap.yaml", "--service-cluster", "client"]
+    volumes:
+      - ./envoy/client-bootstrap.yaml:/etc/envoy/bootstrap.yaml:ro
+      - ./certs:/etc/envoy/certs:ro
+    ports:
+      - "9191:9191" # mesh entrypoint (curl localhost:9191 from the host)
+      - "9902:9901" # client-envoy admin
+    depends_on:
+      - control-plane
+    restart: unless-stopped
+
+  client-app:
+    build: ./client-app
+    image: mesh-client-app
+    container_name: client-app
+    environment:
+      TARGET_URL: "http://localhost:9191/"
+    network_mode: "service:client-envoy"
+    depends_on:
+      - client-envoy
+    restart: unless-stopped

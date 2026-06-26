@@ -1,0 +1,61 @@
+# client-envoy: the EGRESS sidecar.
+#
+# - Accepts plaintext HTTP from client-app on localhost:9191 (shared netns).
+# - Originates mTLS to server-envoy: presents client.crt, validates the server
+#   against the CA and pins its identity to SAN "server.mesh.local".
+#
+# client-app stays a plain HTTP client; this proxy adds all the security.
+admin:
+  address:
+    socket_address: { address: 0.0.0.0, port_value: 9901 }
+
+static_resources:
+  listeners:
+    - name: egress
+      address:
+        socket_address: { address: 0.0.0.0, port_value: 9191 }
+      filter_chains:
+        - filters:
+            - name: envoy.filters.network.http_connection_manager
+              typed_config:
+                "@type": type.googleapis.com/envoy.extensions.filters.network.http_connection_manager.v3.HttpConnectionManager
+                stat_prefix: egress_http
+                route_config:
+                  name: local_route
+                  virtual_hosts:
+                    - name: backend
+                      domains: ["*"]
+                      routes:
+                        - match: { prefix: "/" }
+                          route: { cluster: server_mesh }
+                http_filters:
+                  - name: envoy.filters.http.router
+                    typed_config:
+                      "@type": type.googleapis.com/envoy.extensions.filters.http.router.v3.Router
+
+  clusters:
+    - name: server_mesh
+      type: STRICT_DNS
+      connect_timeout: 1s
+      load_assignment:
+        cluster_name: server_mesh
+        endpoints:
+          - lb_endpoints:
+              - endpoint:
+                  address:
+                    # docker/podman DNS name of the server sidecar container
+                    socket_address: { address: server-envoy, port_value: 8443 }
+      transport_socket:
+        name: envoy.transport_sockets.tls
+        typed_config:
+          "@type": type.googleapis.com/envoy.extensions.transport_sockets.tls.v3.UpstreamTlsContext
+          sni: server.mesh.local
+          common_tls_context:
+            tls_certificates:
+              - certificate_chain: { filename: /etc/envoy/certs/client.crt }
+                private_key: { filename: /etc/envoy/certs/client.key }
+            validation_context:
+              trusted_ca: { filename: /etc/envoy/certs/ca.crt }
+              match_typed_subject_alt_names:
+                - san_type: DNS
+                  matcher: { exact: server.mesh.local }
