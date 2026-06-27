@@ -38,6 +38,12 @@ How to use this: for each question, be able to (1) give a one-sentence definitio
 12. What is a greedy algorithm, and when does greedy fail?
 13. How would you detect a cycle in a linked list or graph?
 14. What is hashing used for beyond hash maps? (Deduplication, partitioning, consistent hashing.)
+15. How do you analyze the complexity of a recursive function?
+16. What is recursion depth, and how does it affect space complexity?
+17. How do you analyze DFS complexity on a tree vs a graph?
+18. If a function recursively splits input into two halves, when is it O(log n), O(n), or O(n log n)?
+19. What is the complexity of backtracking, and why is it often exponential?
+20. How would you explain Big-O if a solution has sorting plus one linear scan?
 
 ## 3. Operating Systems & Concurrency
 
@@ -55,6 +61,12 @@ How to use this: for each question, be able to (1) give a one-sentence definitio
 12. What happens, step by step, when a program calls a function (the call stack)?
 13. (Go-specific) How do goroutines differ from OS threads? What does the Go scheduler do?
 14. (Go-specific) What is a channel, and how does it help avoid shared-memory races?
+15. What is OS scheduling, and why does a process or thread get paused?
+16. What is CPU utilization?
+17. If a machine has 4 CPU cores, how would you design a task to use the cores well?
+18. What types of work benefit from parallel execution, and what types do not?
+19. What is false sharing or cache contention at a high level?
+20. Why can adding more threads make a program slower?
 
 ## 4. Networking
 
@@ -71,6 +83,10 @@ How to use this: for each question, be able to (1) give a one-sentence definitio
 11. What is the difference between latency and throughput?
 12. What is a CDN, and when does it help?
 13. What is the difference between long polling, WebSockets, and Server-Sent Events?
+14. What is a packet?
+15. What is a buffer, and what can happen if the buffer is too small or too large?
+16. What is packet loss, and how does TCP handle it?
+17. Why is UDP useful even though it does not guarantee delivery?
 
 ## 5. Databases
 
@@ -128,12 +144,17 @@ Answer each in one breath before the interview:
 - Stack vs heap memory?
 - Optimistic vs pessimistic locking?
 - Deadlock — name two of the four conditions?
+- Recursive DFS on a tree — time and space complexity?
+- Recursive DFS on a graph with visited set — time and space complexity?
+- 4 CPU cores — what does parallelism mean in one sentence?
 
 ---
 
 ## Notes on strategy
 
 - **Connect every answer to experience.** Axon's JD stresses owning end-to-end features and validating quality. When you explain hash maps, mention the idempotency dedup. When you explain B-trees, mention diagnosing a slow query. This shows applied understanding.
+- **Do not hand-wave Big-O.** Recent candidate reports suggest wrong complexity analysis can hurt even when the algorithm passes. For recursion, always mention recursion depth and stack space.
+- **Expect textbook-style CS questions.** Some questions may feel like university topics: scheduling, memory, cache, packets, and CPU cores. Give a simple definition, then connect it to backend performance or reliability.
 - **Don't over-answer.** Give the definition, one tradeoff, then stop and let them dig. Rambling hides weak spots more than it hides them.
 - **It's OK to think out loud and say "I'm not 100% sure, but my reasoning is..."** — juniors are judged on reasoning quality, not memorized trivia.
 - **Be honest about gaps.** If you've never used UDP, say what you know and how you'd find out. The JD literally says "Don't meet every single requirement? That's ok."

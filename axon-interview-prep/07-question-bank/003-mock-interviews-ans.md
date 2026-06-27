@@ -1,13 +1,13 @@
 ## Mock 1: Recruiter Screen
 1. Tell me about yourself.
 - Firstly, I want to tell that i really appriciate your company for inviting me to this interview.
-- My fullname is Banh Hao Toan, you can call me Toan. I graduated two years ago with a Bachelor's in Software Engineering, my major is mainly focus on software engineering.
-- Currently i'm working as backend developer at Hasaki which have to serve a large scale traffic everyday.
+- My fullname is Banh Hao Toan, you can call me Toan. I graduated two years ago with a Bachelor's in Software Engineering, my major is mainly focus on the related backend field.
+- Currently i'm working as backend developer at Hasaki which have to serve a large scale traffic everyday and need to up time around 99%.
 - Before joining Hasaki, i used to work for 2 companies as Backend Developer at Avian Solutions and Devops Intern at TechJDI.
 - At this stage, i want to take the next step by working in a more challenging engineering environment where I can improve my technical skills, learn from experienced engineers, and contribute to products that have a meaningful impact.
 
 2. Why Axon?
-- I am looking for an environment where I can continuously learn, grow, and challenge myself. I believe Axon would be a great place for me to do that.
+- I am looking for an environment where I can continuously learn, grow, and challenge myself. I believe that Axon would be a great place for me to do that.
 - At Axon, I see a strong engineering culture, opportunities to work on products that have a real-world impact, and talented people whom I can learn from.
 - I am also attracted to Axon because it combines challenging engineering problems with a meaningful mission. I would have the opportunity to grow as an engineer while contributing to products that help improve public safety.
 

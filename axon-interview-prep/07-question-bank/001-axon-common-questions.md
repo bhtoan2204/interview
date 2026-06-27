@@ -9,11 +9,16 @@ These questions are based on Axon's official hiring guidance, the provided Junio
 3. What do you know about Axon's mission?
 4. Why do you want this Junior Software Engineer role?
 5. Why are you leaving or considering leaving your current role?
-6. What kind of engineering environment helps you do your best work?
-7. Are you comfortable working onsite Tuesday through Friday in Ho Chi Minh City?
-8. What are your salary expectations?
-9. When can you start?
-10. Do you have any questions for me?
+6. Which Axon product interests you most, and why?
+7. What are your strengths?
+8. What are your weaknesses, and how are you improving them?
+9. How do you use AI in your work?
+10. When should you avoid relying too much on AI?
+11. What kind of engineering environment helps you do your best work?
+12. Are you comfortable working onsite Tuesday through Friday in Ho Chi Minh City?
+13. What are your salary expectations?
+14. When can you start?
+15. Do you have any questions for me?
 
 ## Mission and Culture Questions
 
@@ -113,18 +118,61 @@ These questions are based on Axon's official hiring guidance, the provided Junio
 14. Deduplicate transactions by idempotency key
 15. Build a simple in-memory cache with TTL
 
-## System Design Questions
+## Coding Follow-Up Questions
 
-1. Design a payment processing service.
-2. Design an audit log service.
-3. Design a notification service.
-4. Design an order tracking service.
-5. Design a file upload service.
-6. Design a third-party API sync service.
-7. Design a retry queue for failed jobs.
-8. Design a service that stores immutable event history.
-9. Design a system for real-time operational alerts.
-10. Design an evidence metadata search service.
+1. What is the exact time and space complexity?
+2. If the solution is recursive, what is the recursion depth?
+3. What is the stack space usage?
+4. What edge case breaks the current solution?
+5. How would you optimize this if input size is much larger?
+6. Can you solve it with a different data structure?
+7. Can you make it iterative instead of recursive?
+8. Can you reduce memory usage?
+9. What changes if the input is a stream?
+10. What changes if the input is too large to fit in memory?
+
+## Computer Science Fundamentals Questions
+
+1. What is Big-O notation?
+2. How do you analyze recursive time complexity?
+3. What is the difference between stack memory and heap memory?
+4. What is a process vs a thread?
+5. What is OS scheduling?
+6. What is context switching?
+7. What is concurrency vs parallelism?
+8. What is a race condition?
+9. How do mutexes prevent race conditions?
+10. What is a deadlock?
+11. If a machine has 4 CPU cores, how would you use them efficiently?
+12. Why can adding more threads make a program slower?
+13. What is CPU cache locality?
+14. What is virtual memory?
+15. What is paging?
+16. What is TCP vs UDP?
+17. What is a packet?
+18. What is a buffer?
+19. What is latency vs throughput?
+20. What happens when you type a URL and press Enter?
+
+## API Design Questions
+
+1. Design APIs for user login and registration.
+2. Design APIs for todo/task management.
+3. Design APIs for file upload and download.
+4. Design APIs for search with filtering, sorting, and pagination.
+5. Design APIs for notifications.
+6. Design APIs for audit logs.
+7. Design APIs for case or evidence management.
+8. Design APIs for role-based access control.
+9. Design APIs for report generation.
+10. Design APIs for webhook/event subscription.
+11. Explain your endpoint naming and resource model.
+12. Explain your request and response schema.
+13. Explain your validation and error response format.
+14. Explain how authentication differs from authorization.
+15. Explain cursor pagination versus offset pagination.
+16. Explain when to use idempotency keys.
+17. Explain how you would test the API contract.
 
 ## AI-Assisted Development Questions
 
@@ -149,4 +197,8 @@ These questions are based on Axon's official hiring guidance, the provided Junio
 8. Tell me about a time you improved reliability.
 9. Tell me about a time you worked with unclear requirements.
 10. Tell me about a time you had to make a tradeoff.
-
+11. When would you accept a slower deadline to keep quality?
+12. When would you push for speed even if the solution is not perfect?
+13. Tell me about a time you had to communicate risk to a teammate or manager.
+14. Tell me about a time you were wrong in a technical discussion.
+15. How do you respond when an interviewer or teammate challenges your answer?

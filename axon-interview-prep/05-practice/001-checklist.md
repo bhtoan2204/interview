@@ -22,6 +22,24 @@
 - Complexity
 - Edge cases
 - Tests
+- Recursion depth and stack space, if recursive
+- Follow-up optimization
+- What changes if input is very large
+
+## CS Fundamentals Drill
+
+- Big-O for recursive functions
+- Process vs thread
+- OS scheduling and context switch
+- Stack vs heap
+- Virtual memory and paging
+- CPU cache locality
+- Concurrency vs parallelism
+- Race condition, mutex, semaphore, deadlock
+- TCP vs UDP
+- Packet, buffer, latency, throughput
+- URL request lifecycle
+- Database index and B-tree
 
 ## Backend Topics
 
@@ -37,4 +55,3 @@
 - Payment state machine
 - Rate limiting
 - Timeout and retry strategy
-

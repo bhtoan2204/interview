@@ -33,31 +33,43 @@ Prepare to answer:
 1. Tell me about yourself.
 2. Why Axon?
 3. Why this Junior Software Engineer role?
-4. Are you comfortable with the hybrid schedule in Ho Chi Minh City?
-5. What are your salary expectations?
-6. When can you start?
-7. What kind of team or engineering culture are you looking for?
+4. What do you know about Axon?
+5. Which Axon product interests you most, and why?
+6. What are your strengths?
+7. What are your weaknesses, and how are you improving them?
+8. How do you use AI in your work?
+9. How do you make sure AI does not reduce code quality or understanding?
+10. Tell me about a project you are proud of.
+11. What kind of team or engineering culture are you looking for?
+12. Are you comfortable with the hybrid schedule in Ho Chi Minh City?
+13. What are your salary expectations?
+14. When can you start?
+15. Do you have any questions for me?
 
 Strong message:
 
 > I am looking for a role where I can grow quickly while contributing to meaningful production systems. Axon is attractive to me because the mission is clear and important, and the role combines backend engineering, collaboration, code quality, and AI-assisted development. I am comfortable with the hybrid schedule because I value in-person collaboration, especially as an engineer who wants to learn from experienced teammates.
 
+Product angle to prepare:
+
+> The Axon product I am most interested in is Draft One because it uses AI to reduce report-writing time for officers, which can let them spend more time on field work and community interaction. I also think it is technically interesting because the product must balance productivity with accuracy, privacy, reviewability, and accountability. That is the kind of responsible AI-assisted workflow I want to learn to build.
+
 ### Stage 2: Technical Phone Screen
 
-**Goal:** Check backend fundamentals, coding ability, problem solving, communication, and technical ownership.
+**Goal:** Check coding ability, API design thinking, problem solving, communication, and technical ownership.
 
 Likely topics:
 
-- Data structures and algorithms
-- Go or Java fundamentals
-- REST APIs and backend service design
-- SQL and database transactions
-- Caching with Redis
-- Message queues or Kafka
-- Error handling, retries, timeout design
-- Basic system design
+- LeetCode-style data structures and algorithms
+- API design, especially REST contracts
+- Request and response schema design
+- Validation and error handling
+- Authentication and authorization basics
+- Pagination, filtering, and sorting
+- Idempotency for create/retry flows
+- Status codes and versioning
+- Testing API behavior
 - Code review mindset
-- Debugging production issues
 
 How to communicate:
 
@@ -67,6 +79,33 @@ How to communicate:
 - Mention edge cases.
 - Talk about testing.
 - If using AI tools, emphasize validation, not blind trust.
+
+LeetCode areas to prioritize:
+
+- Arrays and strings
+- Hash maps and sets
+- Two pointers
+- Sliding window
+- Stack and queue
+- Binary search
+- Linked list basics
+- Trees with BFS/DFS
+- Graph basics such as Number of Islands
+- Heap and sorting problems such as Top K Frequent and Merge Intervals
+- Basic dynamic programming such as Climbing Stairs or House Robber
+
+API design prompts to practice:
+
+- Design APIs for user login and registration.
+- Design APIs for todo/task management.
+- Design APIs for file upload and download.
+- Design APIs for search with filtering, sorting, and pagination.
+- Design APIs for notifications.
+- Design APIs for audit logs.
+- Design APIs for case or evidence management.
+- Design APIs for role-based access control.
+- Design APIs for report generation.
+- Design APIs for webhooks or event subscriptions.
 
 ### Stage 3: Coding Interview
 
@@ -84,7 +123,6 @@ Recommended practice areas:
 - Trees and BFS/DFS
 - Graph basics
 - Dynamic programming basics
-- Concurrency basics in Go
 
 Answering framework:
 
@@ -107,40 +145,41 @@ Useful phrases:
 
 > I would test the empty input, a single element, duplicates, and the maximum-size case.
 
-### Stage 4: Backend/System Design Interview
+### Stage 4: API Design Interview
 
-**Goal:** Assess whether you can design practical services and reason about reliability.
+**Goal:** Assess whether you can design clear API contracts and reason about client/server behavior.
 
-For a junior role, expect small-to-medium design questions, not massive architecture design.
+Based on the expected interview format, do not over-index on broad system design. Keep the answer focused on API contract, validation, edge cases, security, and testing.
 
 Likely prompts:
 
-- Design an order tracking service.
-- Design a notification system.
-- Design a payment processing flow.
-- Design an audit log system.
-- Design a queue-based background processing service.
-- Design a service that syncs data from a third-party API.
+- Design APIs for task management.
+- Design APIs for file upload/download.
+- Design APIs for notification preferences and sending notifications.
+- Design APIs for audit logs.
+- Design APIs for case/evidence management.
+- Design APIs for report generation.
+- Design APIs for webhooks.
 
 Recommended answer structure:
 
-1. Requirements: functional and non-functional.
-2. API design.
-3. Data model.
-4. Service flow.
-5. Failure handling.
-6. Consistency and idempotency.
-7. Observability.
-8. Security and privacy.
-9. Tradeoffs.
+1. Clarify users, resources, and main use cases.
+2. Define endpoints and HTTP methods.
+3. Define request and response bodies.
+4. Explain validation rules and error format.
+5. Choose status codes.
+6. Add pagination, filtering, and sorting where needed.
+7. Cover auth, authorization, and privacy.
+8. Handle idempotency and retries for create operations.
+9. Mention tests and backward compatibility.
 
-Example: payment processing system
+Example: evidence upload API
 
-> I would model payment as a state machine because payment can move through states such as created, authorized, captured, failed, refunded, or partially refunded. For reliability, I would make external provider calls idempotent using an idempotency key. I would store every important state transition, and for auditability I could use an event-sourcing approach. Since payment providers can timeout or return delayed callbacks, I would design retry logic carefully and reconcile provider status through webhook events or scheduled jobs.
+> I would first clarify who can upload evidence, what metadata is required, file size limits, and whether upload should be direct or pre-signed. A simple contract could be `POST /v1/evidence/uploads` to create an upload session, then `PATCH /v1/evidence/{id}` to update metadata. I would include validation errors in a consistent format, require authorization by case access, and keep audit logs for create/update actions. For retries, I would support an idempotency key so the client does not create duplicate evidence records.
 
 Tie to your CV:
 
-> In my current role, I independently designed and implemented US-market POS and online payment systems using event sourcing to guarantee audit trail compliance and reliable transaction state management across terminal and server-to-server flows.
+> In my current role, I designed backend APIs for payment and order workflows where correctness, idempotency, state transitions, and auditability mattered. I would bring the same careful API thinking to Axon's mission-critical workflows.
 
 ### Stage 5: Behavioral Interview
 
@@ -359,4 +398,3 @@ For each problem, practice explaining:
 Use this near the end if appropriate:
 
 > Thank you for the conversation. I am excited about this role because it combines meaningful mission, backend engineering, code quality, and modern AI-assisted development. I believe my experience with production backend systems, payments, event-driven architecture, cloud infrastructure, and observability would help me contribute quickly while continuing to grow with the team.
-

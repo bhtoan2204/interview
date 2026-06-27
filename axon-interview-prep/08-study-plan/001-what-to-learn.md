@@ -4,6 +4,32 @@ This list is prioritized for the Axon Junior Software Engineer role and your CV.
 
 ## Priority 1: Must Know Well
 
+### Computer Science Fundamentals
+
+Recent candidate reports suggest this can be deep, even for junior candidates. Do not skip university-style topics.
+
+Learn:
+
+- Big-O analysis, especially recursion and graph traversal
+- Array, linked list, hash map, heap, stack, queue, tree, graph
+- Process vs thread
+- Concurrency vs parallelism
+- Race condition, mutex, semaphore, deadlock
+- OS scheduling at a high level
+- Stack vs heap memory
+- Virtual memory and paging
+- CPU cache and locality at a high level
+- TCP vs UDP
+- Packets, buffers, latency, throughput
+
+You should be able to explain:
+
+> What is the time and space complexity of this recursive solution?
+
+> If the machine has 4 CPU cores, how would you use them safely?
+
+> What happens when you type a URL and press Enter?
+
 ### Go Backend Fundamentals
 
 Learn and practice:
@@ -41,6 +67,10 @@ Focus on interview patterns, not memorizing solutions:
 - Basic dynamic programming
 
 You should practice explaining complexity out loud.
+
+Important Axon angle:
+
+> Passing test cases is not enough. You need to explain why the solution is correct, why the complexity is correct, and how follow-up constraints change the solution.
 
 ### SQL and Transactions
 
@@ -168,4 +198,3 @@ Prepare stories for:
 - Production issue
 - Collaboration
 - Customer impact
-
