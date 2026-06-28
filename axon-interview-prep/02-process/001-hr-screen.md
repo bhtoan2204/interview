@@ -8,22 +8,25 @@ Confirm motivation, communication, availability, salary range, English ability, 
 
 1. Tell me about yourself.
 2. Why did you move from DevOps to Backend?
-3. Why Axon?
-4. Why this Junior Software Engineer role?
-5. What do you know about Axon?
-6. Which Axon product interests you most, and why?
-7. What are your strengths?
-8. What are your weaknesses, and how are you improving them?
-9. How do you use AI in your work?
-10. When should you avoid relying too much on AI?
-11. Tell me about a project you are proud of.
-12. Tell me about a time you failed and how you overcame it.
-13. Tell me about a time you had conflict or disagreement with a teammate.
-14. What kind of team or engineering culture are you looking for?
-15. Are you comfortable with the hybrid schedule in Ho Chi Minh City?
-16. What are your salary expectations?
-17. When can you start?
-18. Do you have any questions for me?
+3. Why are you leaving your current company?
+4. Why Axon?
+5. Why this Junior Software Engineer role?
+6. You already have around two years of experience. Why are you applying for a junior position?
+7. Why should we hire you?
+8. What do you know about Axon?
+9. Which Axon product interests you most, and why?
+10. What are your strengths?
+11. What are your weaknesses, and how are you improving them?
+12. How do you use AI in your work?
+13. When should you avoid relying too much on AI?
+14. Tell me about a project you are proud of.
+15. Tell me about a time you failed and how you overcame it.
+16. Tell me about a time you had conflict or disagreement with a teammate.
+17. What kind of team or engineering culture are you looking for?
+18. Are you comfortable with the hybrid schedule in Ho Chi Minh City?
+19. What are your salary expectations?
+20. When can you start?
+21. Do you have any questions for me?
 
 ## Strong Message
 
