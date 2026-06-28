@@ -64,6 +64,7 @@ Output:
 
 ## Day 5: CS Fundamentals 2
 
+- Read `07-question-bank/006-cs-fundamentals-notes.md`.
 - Review process vs thread, concurrency vs parallelism, race condition, mutex, semaphore, deadlock.
 - Review OS scheduling, stack vs heap, virtual memory, paging, CPU cache locality.
 - Practice the 4-core performance prompt.
@@ -190,5 +191,6 @@ Run a full mock:
 - Review `06-closing/002-final-prep.md`.
 - Review `07-question-bank/001-axon-common-questions.md`.
 - Review `07-question-bank/005-cs-fundamentals-questions.md`.
+- Skim `07-question-bank/006-cs-fundamentals-notes.md`, especially the interview drill answers and follow-up traps.
 - Sleep well.
 - Do not cram too many new topics.

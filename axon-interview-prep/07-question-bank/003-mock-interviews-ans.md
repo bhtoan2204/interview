@@ -7,9 +7,10 @@
 - At this stage, i want to take the next step by working in a more challenging engineering environment where I can improve my technical skills, learn from experienced engineers, and contribute to products that have a meaningful impact.
 
 2. Why Axon?
-- I am looking for an environment where I can continuously learn, grow, and challenge myself. I believe that Axon would be a great place for me to do that.
-- At Axon, I see a strong engineering culture, opportunities to work on products that have a real-world impact, and talented people whom I can learn from.
-- I am also attracted to Axon because it combines challenging engineering problems with a meaningful mission. I would have the opportunity to grow as an engineer while contributing to products that help improve public safety.
+- I am interested in Axon because the mission is meaningful and practical. From what I researched, Axon works in public safety and builds a connected ecosystem across hardware devices, cloud software, AI tools, and workflow software.
+- I like that the products are not just general business tools. They can support real public safety work, so reliability, accuracy, security, and usability can have direct impact.
+- I am also attracted to Axon because it combines challenging engineering problems with a meaningful mission. I would have the opportunity to grow as an engineer while contributing to products that help people work more safely and effectively.
+- I am looking for an environment where I can continuously learn, grow, and challenge myself, and I believe Axon's engineering culture would be a great place for that.
 
 3. What do you know about our mission?
 - From what i understand, Axon's mission is to protect life by using technology to improve public safety and the justice system.

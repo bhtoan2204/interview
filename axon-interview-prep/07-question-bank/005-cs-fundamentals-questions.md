@@ -4,6 +4,8 @@ CS fundamentals are weighted heavily in Axon's interview loop, even for a Junior
 
 How to use this: for each question, be able to (1) give a one-sentence definition, (2) explain a tradeoff, and (3) tie it to something you've actually built (payments, Kafka, CDC, migrations). The third part is what separates a junior from a senior answer.
 
+For deeper notes on OS/concurrency/memory topics, read `006-cs-fundamentals-notes.md` after drilling the questions.
+
 ---
 
 ## 1. Data Structures

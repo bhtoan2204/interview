@@ -13,6 +13,8 @@ This folder splits the interview preparation material into focused sections so y
 7. Review technical answers in `03-technical/`
 8. Practice STAR stories in `04-behavioral/`
 9. Drill questions from `07-question-bank/`
+   - Use `07-question-bank/005-cs-fundamentals-questions.md` for prompts.
+   - Use `07-question-bank/006-cs-fundamentals-notes.md` for detailed CS fundamentals review.
 10. Use `05-practice/001-checklist.md` for daily practice
 11. Review `06-closing/002-final-prep.md` before the interview
 
