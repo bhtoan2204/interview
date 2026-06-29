@@ -2,23 +2,25 @@
 
 Use simple English. Speak slowly. Do not memorize every word. Remember the main points and speak naturally.
 
+2. Với câu hỏi kể chuyện: STAR-L
+
+Dùng công thức:
+
+S — Situation: Hoàn cảnh
+T — Task: Trách nhiệm của mày
+A — Action: Mày đã làm gì
+R — Result: Kết quả
+L — Learning: Mày học được gì
+
 ## 1. Tell Me About Yourself
 
-Recommended answer:
+>Thank you for having me today. My name is Banh Hao Toan, and you can call me Toan.
 
-> First of all, thank you for inviting me to this interview. My full name is Banh Hao Toan, and you can call me Toan.
->
-> I graduated about two years ago with a Bachelor's degree in Software Engineering. My main focus is backend development.
->
-> Currently, I am working as a Backend Developer at Hasaki. I work on order, payment, and integration systems that serve high daily traffic.
->
-> Before Hasaki, I worked as a Backend Developer at Avian Solutions, and before that I was a DevOps Intern at TechJDI. Because of that, I care not only about writing code, but also about how software runs in production.
->
-> At this stage, I want to take the next step in a more challenging engineering environment where I can improve my skills and contribute to meaningful products.
+>I’m a backend engineer with over two years of experience. Right now, I’m working at Hasaki, mainly on order, payment, and third-party integration systems.
 
-Short version:
+>Before that, I worked as a backend developer at Avian Solutions, and I started my career with a DevOps internship at TechJDI. Because of that, I’ve had the chance to learn not only how to build backend services, but also how they run in a real production environment.
 
-> I am a backend developer with experience in payment and order systems. I enjoy building reliable services and learning new technical areas.
+>At this point, I’m looking for a new opportunity where I can work on more challenging problems, build meaningful products, and grow further as a backend engineer.
 
 ## 2. Why Did You Move From DevOps To Backend?
 
@@ -99,17 +101,7 @@ Short version:
 
 ## 7. Why Should We Hire You?
 
-Recommended answer:
-
-> I think I can bring practical production experience while still having a strong learning mindset.
->
-> I have worked on backend systems that need to be reliable in production. I understand that production software needs more than just working code. It needs ownership, testing, monitoring, and clear failure handling.
->
-> At the same time, I am open to feedback and eager to improve. I believe I can contribute to the team while continuing to grow at Axon.
-
-Short version:
-
-> I can bring practical production experience while still having a strong learning mindset. I take ownership, care about reliability, and learn deeply. I believe I can contribute to the team while continuing to grow at Axon.
+> I think I could bring my practical experience in production while still having strong learning mindset. And I understand that production software needs more than just working code, it needs ownership, testing, and clear error handling. And at the same time, I am a person who is able to learn, to improve, and receive the feedback from the other people while contribute to product in the axon.
 
 ## 8. What Do You Know About Axon?
 
@@ -179,7 +171,7 @@ Choose one. The safest answer is Option A.
 
 ### Option A: Learning Slowly At First, But Deeply
 
-> One weakness I am improving is that I can be slow at the beginning when learning a new system.
+> One weakness I am improving is that I can be cold start at the beginning when learning a new system.
 >
 > The reason is that I like to understand things deeply, not only at the surface level. This helps me build a strong foundation, but at the beginning it can take more time.
 >
@@ -205,18 +197,6 @@ Short version:
 
 > One weakness I am improving is communication. Sometimes I focus too much on solving the technical problem first, so I may not share my assumptions or progress early enough. I am improving by giving clearer updates, asking for feedback earlier, and practicing how to explain technical topics in simple English.
 
-### Option C: Asking For Feedback Too Late
-
-> One weakness is that sometimes I try to solve a problem by myself for too long before asking for feedback.
->
-> I am improving this by sharing my approach earlier, especially when the task has many tradeoffs. This helps me avoid wasting time and also helps the team align sooner.
-
-### Option D: Wanting The First Version To Be Too Perfect
-
-> Sometimes I spend too much time trying to make the first version too perfect.
->
-> I am improving this by splitting work into smaller steps, getting feedback earlier, and focusing on the most important requirement first. After that, I can improve the solution step by step.
-
 ## 12. How Do You Use AI In Your Work?
 
 Recommended answer:
@@ -225,7 +205,7 @@ Recommended answer:
 >
 > I usually use AI to explain unfamiliar topics, suggest edge cases, or compare implementation options.
 >
-> But I always review the result by myself. For important logic, I still rely on tests, documentation, code review, and my own understanding.
+> But I always review the result by myself. For important logic, I still rely on tests, documentation, and my own understanding.
 
 Axon-specific point:
 
@@ -249,13 +229,7 @@ Recommended answer: payment system
 >
 > Payment systems require high correctness because small bugs can affect real users and business operations.
 >
-> I focused on clear state management and safe behavior when something fails. From this project, I learned that backend engineering is not only about writing APIs. It is also about protecting the business flow.
-
-Alternative answer: migration
-
-> Another project I am proud of is a large data migration project. The challenge was not only moving data, but also keeping data correct and reducing risk during rollout.
->
-> I learned a lot about data correctness and careful release planning.
+> From this project, I learned that backend engineering is not only about writing APIs. It is also about protecting the business flow.
 
 ## 15. Tell Me About A Time You Failed And How You Overcame It
 
@@ -268,16 +242,6 @@ Recommended answer:
 > I overcame it by breaking the task into smaller parts, clarifying requirements earlier, and asking for feedback before going too deep into implementation.
 >
 > The final solution became cleaner. More importantly, I learned to reduce risk earlier instead of trying to solve everything alone.
-
-Short version:
-
-> One failure I learned from was underestimating a backend task and not clarifying edge cases early enough. The first version needed rework. I overcame it by breaking the task into smaller parts and asking for feedback earlier.
-
-If interviewer asks deeper:
-
-- Explain the specific type of task only if needed.
-- Emphasize learning: clarify earlier, ask feedback earlier, test risky paths.
-- Keep the result positive but realistic.
 
 ## 16. Tell Me About A Time You Had Conflict Or Disagreement With A Teammate
 
@@ -339,6 +303,8 @@ Use 2 or 3 questions:
 4. > How does the team support junior engineers to grow?
 5. > What are the most important skills you are looking for in this role?
 
+6. > That's all for me.
+
 ## Extra: Why Do You Think You Are A Good Culture Fit?
 
 Recommended answer:
@@ -366,3 +332,48 @@ If you want to clarify:
 If you do not know something:
 
 > I do not have deep experience with that yet. My approach would be to read the documentation, ask good questions, and practice with a small task first.
+
+
+## Can you walk me through your career journey and explain why you changed jobs?
+
+I’ve always wanted to grow as a backend engineer and, in the future, become a software architect.
+
+> I started in a DevOps role because I wanted to learn more about infrastructure and deployment. After about four months, I realized I was more interested in backend development.
+
+> Then I joined Avian Solutions, where I worked on business logic, system migrations, and project delivery. After more than a year, I wanted to work with larger systems, so I moved to Hasaki.
+
+> So, each move was mainly about learning more and getting closer to my long-term career goal. Now, I’m looking for a stable place where I can grow and contribute for the long term and i believe that axon would be the perfect place.
+
+## Why are you considering leaving Hasaki after just over one year, and what are you looking for in your next company?
+
+> At this stage of my career, I am not looking to change companies just for a new opportunity. I am looking for a place whose mission and way of working I genuinely believe in.
+
+> What attracts me to Axon is the opportunity to build reliable, mission-critical products that solve real public-safety problems. I also really value Axon’s strong engineering culture, where people take ownership, keep learning, and communicate openly.
+
+> I believe Axon is a place where I can contribute meaningfully, grow with the team, and build products that create real value over the long term.
+
+## How do you usually approach learning a completely new technology or codebase when you need to become productive quickly?
+> When I need to learn a new technology or codebase quickly, I start with the big picture: the system’s purpose, architecture, and key business flows.
+
+> I review the documentation and code, and I may use approved AI tools to understand unfamiliar concepts, but I always verify the information. I also ask teammates focused questions about critical flows and common mistakes.
+
+> Finally, I trace one important flow end to end and take on a small real task. This helps me validate my understanding and become productive quickly.
+
+## What would you do if your manager gave you feedback that you strongly disagreed with?
+> First, I would make sure I fully understood the feedback and the reasoning behind it. I might ask a few questions because sometimes disagreement comes from having different information or understanding the requirements differently.
+
+> If I still had concerns, I would explain them respectfully and provide concrete examples, such as possible edge cases, technical risks, or effects on the project > timeline. I would focus on the issue rather than trying to prove that my opinion was right.
+
+> I am open to changing my mind when the feedback is reasonable and supported by evidence. If there is an approach that addresses both concerns, I would be happy to discuss it.
+
+> However, I also understand that we may not always reach complete agreement. Once the manager or team has made a final decision, I would support it and implement it professionally, unless I believed it created a serious security, legal, or ethical risk that needed to be escalated.
+
+## Where do you see yourself in the next three to five years?
+> In the next three to five years, I want to become a strong software engineer who can take ownership of important systems.
+> 
+> I want to improve my skills in software development, distributed systems, reliability, and system design. Over time, I hope to take part in more technical decisions and help other engineers.
+> 
+> In the long term, I would like to grow into a software architect role. For now, my focus is on building a strong foundation, learning from real projects, and growing step by step.
+
+## Are you currently interviewing with any other companies, and do you have any upcoming deadlines or offers we should be aware of?
+> At the moment, I am not actively interviewing with other companies, and I do not have any pending offers or deadlines.
