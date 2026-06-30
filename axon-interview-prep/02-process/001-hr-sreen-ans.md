@@ -46,23 +46,23 @@ Liên hệ với công ty mới
 
 ## 1. Tell Me About Yourself
 
->Thank you for having me today. My name is Banh Hao Toan, and you can call me Toan.
+> Thank you for having me today. My name is Banh Hao Toan, and you can call me Toan.
 
->I’m a backend engineer with over two years of experience. Right now, I’m working at Hasaki, mainly on order, payment, and third-party integration systems.
+> I’m a backend engineer with over two years of experience. Right now, I’m working at Hasaki, mainly on order, payment, and third-party integration systems.
 
->Before that, I worked as a backend developer at Avian Solutions, and I started my career with a DevOps internship at TechJDI. Because of that, I’ve had the chance to learn not only how to build backend services, but also how they run in a real production environment.
+> Before that, I worked as a backend developer at Avian Solutions, and I started my career with a DevOps internship at TechJDI. That experience helped me understand both backend development and how systems run in production.
 
->At this point, I’m looking for a new opportunity where I can work on more challenging problems, build meaningful products, and grow further as a backend engineer.
+> Now, I’m looking for a role where I can take on more challenging problems and contribute to products with real impact.
 
 ## 2. Why Did You Move From DevOps To Backend?
 
 Recommended answer:
 
 > I started with DevOps because I wanted to understand how real software runs in production.
->
-> That experience was very useful, but over time I realized that I wanted to be closer to product logic and backend system design. I enjoy building application behavior and thinking about reliability from inside the product, not only from the infrastructure side.
->
-> So I do not see it as leaving DevOps completely. I see it as using that foundation to become a better backend engineer who understands both application code and production behavior.
+
+> That experience was very useful, but over time I realized that I wanted to be closer to product logic and backend system design. I enjoyed working more closely with business logic and building backend features directly.
+
+> I don’t see my DevOps experience as separate from backend development. I see it as using that foundation to become a better backend engineer who understands both application code and production behavior.
 
 Short version:
 
@@ -70,15 +70,7 @@ Short version:
 
 ## 3. Why Are You Leaving Your Current Company?
 
-Recommended answer:
-
-> I have learned a lot at Hasaki, especially about building backend systems that need to be reliable in production. I am not leaving because of a negative experience.
->
-> At this stage, I want to challenge myself in a global product environment and work on more complex engineering problems.
-
-Short version:
-
-> I have learned a lot at Hasaki, especially about reliable backend systems. I am not leaving because of a negative experience. I want to challenge myself in a global product environment.
+> I’ve learned a lot at Hasaki, especially about production systems. At this stage, I’m looking for a larger product environment with more complex technical challenges. I now want to work in a global product team and take on more complex engineering problems.
 
 Avoid saying:
 
@@ -91,7 +83,7 @@ Avoid saying:
 
 Recommended answer:
 
->I am interested in Axon because I find its products and mission very meaningful. Axon builds technology that supports officers and public safety agencies in real-world situations, where reliability can make a real difference.
+> I am interested in Axon because I find its products and mission very meaningful. Axon builds technology that supports officers and public safety agencies in real-world situations, where reliability can make a real difference.
 
 >I am especially interested in how Axon connects devices, cloud software, digital evidence, and AI into one ecosystem. As a backend engineer, I find the scale, reliability, and security challenges very exciting.
 
@@ -121,7 +113,7 @@ Recommended answer:
 
 > I understand that job levels can be different between companies. I care more about the actual responsibilities, engineering environment, and growth opportunity than the title itself.
 >
-> I already have practical backend experience, but I am still early in my career. There are many areas where I want to build a stronger foundation and improve my engineering discipline.
+> I already have practical backend experience, but I am still early in my career. There are still many areas where I want to improve, especially system design, reliability, and working on large systems.
 >
 > If the role gives me the opportunity to contribute and grow, I am comfortable with the junior title.
 
@@ -131,19 +123,24 @@ Short version:
 
 ## 7. Why Should We Hire You?
 
-> I think I could bring my practical experience in production while still having strong learning mindset. And I understand that production software needs more than just working code, it needs ownership, testing, and clear error handling. And at the same time, I am a person who is able to learn, to improve, and receive the feedback from the other people while contribute to product in the axon.
+> I believe I can bring practical backend experience and a strong production mindset.
+
+> I understand that good software is not only about making the code work. It also requires testing, clear error handling, and ownership.
+
+> At the same time, I’m still eager to learn, receive feedback, and improve. I believe I can contribute to the team while continuing to grow at Axon.
+
 
 ## 8. What Do You Know About Axon?
 
 Recommended answer:
 
-> From my research, Axon is a technology company focused on public safety. The mission is Protect Life.
+> From my research, Axon is a technology company focused on public safety. I know Axon’s mission is Protect Life.
 >
 > Axon builds public safety products such as TASER, body cameras, digital evidence software, and AI-assisted tools.
 >
 > I also know Axon is building a connected ecosystem between devices and software.
 >
-> One thing that impressed me is Axon's big goal to reduce gun-related deaths between police and the public by 50% over 10 years. It shows that the company is not only building products, but also trying to create real social impact.
+> One thing that impressed me is Axon's big goal to reduce gun-related deaths between police and the public by 50% over 10 years. That goal impressed me because it shows Axon is focused on the real outcome of its products, not just the technology.
 
 Short version:
 
@@ -154,9 +151,9 @@ Short version:
 Recommended answer: TASER
 
 > The Axon product that interests me most is TASER.
->
-> I like it because it connects very directly to Axon's mission to Protect Life. From my understanding, TASER gives officers a less-lethal option in dangerous situations, so the product can help reduce harm while still supporting public safety work.
->
+
+> I like it because It interests me because it connects directly to Axon’s mission. From my understanding, TASER gives officers a less-lethal option in dangerous situations, so the product can help reduce harm while still supporting public safety work.
+
 > I also like that TASER is part of a larger officer workflow, together with body cameras, evidence software, and AI tools.
 
 Short version:
@@ -179,53 +176,24 @@ Choose 2 or 3 strengths. Do not say all of them in one answer.
 >
 > For example, in payment and order systems at Hasaki, small bugs can affect many users, so I learned to be careful with correctness and production behavior.
 
-### Option B: Learning Fast
-
-> Another strength is that I can learn new technical areas quickly. I started with DevOps, then moved more deeply into backend development, so I am comfortable learning across different parts of the system.
->
-> When I meet a new tool or domain, I usually read the documentation, build a small example, and then apply it to the real task.
-
-### Option C: Reliability Mindset
-
-> I think I have a good reliability mindset. I do not only think about making the feature work locally.
->
-> For example, I think about failure cases and how to debug the issue later. This is important for backend systems and also for Axon's mission-critical software.
-
-### Short Answer
-
-> My main strengths are ownership, learning fast, and reliability mindset. I care about building backend services that work well in production, not only in local testing.
-
 ## 11. What Are Your Weaknesses, And How Are You Improving Them?
 
 Choose one. The safest answer is Option A.
 
 ### Option A: Learning Slowly At First, But Deeply
 
-> One weakness I am improving is that I can be cold start at the beginning when learning a new system.
->
-> The reason is that I like to understand things deeply, not only at the surface level. This helps me build a strong foundation, but at the beginning it can take more time.
->
-> I am improving this by balancing depth with speed. First, I try to understand the big picture and the most important parts needed for the task. Then I ask questions earlier and go deeper step by step.
->
-> When I manage it well, this becomes useful because I can make better technical decisions later.
+> One weakness I am working on is that I sometimes spend too much time trying to understand a new system in detail before starting.
 
-Short version:
+> I like to build a clear understanding, but this can slow me down at the beginning. To improve, I now focus first on the big picture and the information needed for the task. I also ask questions earlier instead of trying to figure out everything by myself.
 
-> One weakness I am improving is that I can be slow at the beginning when learning a new system. I like to understand things deeply. I am improving by learning the big picture first, asking questions earlier, and going deeper step by step.
+> This helps me start faster while still learning the system properly over time.
 
 ### Option B: Communication
 
 > One weakness I am improving is communication, especially explaining my thinking clearly and sharing context earlier.
->
-> Sometimes I focus deeply on solving the technical problem first, and I may not communicate my assumptions or progress early enough. I realized that good engineering is not only about writing correct code, but also about helping the team align sooner.
->
-> I am improving this by writing clearer updates, asking for feedback earlier, and practicing how to explain technical topics in simple English.
->
-> Better communication makes code reviews and collaboration much more effective.
-
-Short version:
-
-> One weakness I am improving is communication. Sometimes I focus too much on solving the technical problem first, so I may not share my assumptions or progress early enough. I am improving by giving clearer updates, asking for feedback earlier, and practicing how to explain technical topics in simple English.
+> Sometimes I focus too much on solving the technical problem first, so I may not communicate my assumptions or progress early enough.
+> I am improving this by giving clearer updates, asking for feedback earlier, and explaining technical topics in a more structured way.
+> This has helped me work more smoothly with the team.
 
 ## 12. How Do You Use AI In Your Work?
 
@@ -252,14 +220,9 @@ Recommended answer:
 > I also should not put sensitive company data or customer data into AI tools unless the company policy allows it.
 
 ## 14. Tell Me About A Project You Are Proud Of
-
-Recommended answer: payment system
-
-> One project I am proud of is the payment system I worked on at Hasaki.
->
-> Payment systems require high correctness because small bugs can affect real users and business operations.
->
-> From this project, I learned that backend engineering is not only about writing APIs. It is also about protecting the business flow.
+> One project I’m proud of is the payment system I worked on at Hasaki
+> I worked on payment flows, transaction statuses, refunds, and third-party integrations. Since payment issues can directly affect customers and business operations, I had to pay close attention to correctness, error handling, and edge cases.
+> This project helped me build a stronger production mindset and taught me to think beyond just making the API work.
 
 ## 15. Tell Me About A Time You Failed And How You Overcame It
 
@@ -403,3 +366,13 @@ I’ve always wanted to grow as a backend engineer and, in the future, become a 
 
 ## 28. Are you currently interviewing with any other companies, and do you have any upcoming deadlines or offers we should be aware of?
 > At the moment, I am not actively interviewing with other companies, and I do not have any pending offers or deadlines.
+
+## 29. How do you handle stress or pressure at work?
+> When I feel stressed, I usually take a short break to clear my mind first.
+
+> After that, I break the work into smaller tasks and start with the simpler ones. Finishing a few small tasks helps me regain focus and confident. Then I move on to the more difficult or important tasks with a clearer mind.
+
+## 30. How do you handle a production incident?
+> When I find a production incident, I first report it clearly to the team and share the impact, possible cause, and current status.
+> Then I suggest a temporary fix to reduce the impact as quickly as possible. If needed, I also propose a long-term solution to prevent the same issue from happening again.
+> After that, I wait for the team or manager to approve the approach. While waiting, I can prepare the code changes or draft the implementation, but I would not deploy anything without approval.
