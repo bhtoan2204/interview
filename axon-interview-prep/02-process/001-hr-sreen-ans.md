@@ -48,6 +48,8 @@ Liên hệ với công ty mới
 
 > Thank you for having me today. My name is Banh Hao Toan, and you can call me Toan.
 
+> I graduated from the University of Science with a Bachelor’s degree in Information Technology, specializing in Software Engineering.
+
 > I’m a backend engineer with over two years of experience. Right now, I’m working at Hasaki, mainly on order, payment, and third-party integration systems.
 
 > Before that, I worked as a backend developer at Avian Solutions, and I started my career with a DevOps internship at TechJDI. That experience helped me understand both backend development and how systems run in production.
